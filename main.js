@@ -146,7 +146,7 @@ const ownRecipe = async () => {
 //function to post the added recipe to the server
     if(title && image && summary) {
         try {
-        const response = await fetch("http://localhost:3000/results", {
+        const response = await fetch("https://my-json-server.typicode.com/Inifinitech/Fav-Recipes/results", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
