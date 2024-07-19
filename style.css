@@ -1,0 +1,216 @@
+body {
+    background: white;
+    margin: 0px;
+    padding: 0px;
+}
+img[alt="logo"] {
+    height: 10vh;
+    border: 1px transparent;
+    border-radius: 50%;
+}
+img[alt="recipe"] {
+    height: 70vh;
+    padding-left: 35vh;
+}
+img[alt="latestRecipe"] {
+    height: 70%;
+}
+img[alt="addedImage"] {
+    border: 1px transparent;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 8px ;
+}
+
+#header {
+    display: inline-flex;
+    position: fixed;
+    z-index: 1000;
+    top: 0%;
+    background: whitesmoke center;
+    border-bottom: 0.8px solid gray;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    padding: 0.5rem;
+    margin: 0%;
+    font-size: 1.5rem;
+}
+.startPage {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 0.5px solid rgb(205, 203, 203);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px gray;
+    cursor: pointer;
+    }
+.startPage h1 {
+    margin: 0%;
+    padding-left: 2px;
+}
+.introText {
+    font-size: 0.5rem;
+}
+nav > a {
+    display: inline-flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+#searchBar {
+    padding-right: 150px;
+    float: right;
+}
+input#search {
+   border: 1px transparent;
+   border-radius: 10px;
+   height: 5vh;
+   margin: 8px;
+}
+#title {
+    padding-left: 50vh;
+}
+.main {
+    display: inline-grid;
+    background: rgb(13, 25, 48);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border: 1px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#ingredientInfo {
+    padding-left: 30vh;
+    color: #fA510F;
+    font-size: 1.5rem;
+}
+#ul {
+    margin-left: 30vh;
+    font-size: 1.5rem;
+}
+#recipeInfo {
+    margin-left: 30vh;
+    font-size: 1.5rem;
+    color: #fA510F;
+}
+h2#recipeCollection {
+    padding: 1px;
+    text-align: center;
+}
+#title3 {
+    text-align: center;
+    color: #fA510F;
+}
+#list3 {
+    margin-left: 30vh;
+    font-size: 2rem;
+    color: #fA510F;
+}
+#ul3 {
+    margin-left: 30vh;
+    font-size: 1.5rem;
+}
+#summary3 {
+    font-size: 1.2rem;
+}
+#additionals {
+    display: inline-grid;
+    background-image: url("https://www.allrecipes.com/thmb/dRcOOkM5zDLXdBiQlbLZoloebcA=/1900x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/102269821-kitchen-envy-armag-michael-partenio-f8e731a287674935bb5edf4e45acb236.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+    border: 1px solid gray;
+    border-radius: 5px 5px 5px;
+    justify-content: center;
+}
+
+input#title2 {
+    height: 5vh;
+    width: 300%;
+    margin: 8px;
+}
+input#poster2 {
+    height: 5vh;
+    width: 300%;
+    margin: 8px;
+}
+textarea {
+    height: 5vh;
+    width: 300%;
+    margin: 8px;
+}
+#submitRecip {
+    height: 5vh;
+    width: 50%;
+    margin: 8px;
+}
+#poster3 {
+    display: block;
+    margin-left: 35vh;
+}
+#trends {
+    display: inline-grid;
+    background: rgb(13, 25, 48);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border: 1px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #007bff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+#addedRecipes {
+    display: grid;
+    background-color: rgba(0, 255, 255, 0.543);
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    width: 100%;
+    gap: 50px;
+    border: 1px transparent;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.recipeItem {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.recipeItem img{
+    border-bottom: 0.8px solid gainsboro;
+}
+hr {
+    width: 80%;
+    border: 0px;
+    border-top: 1px solid aliceblue;
+    margin: 10px 0;
+}
+
+/* @media (min-width: 768px) {
+    #addedRecipes {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+@media (min-width: 1024px) {
+    #addedRecipes {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+} */
