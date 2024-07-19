@@ -12,7 +12,6 @@ const addPoster = document.getElementById('poster2');
 const addSummary = document.getElementById('summary2');
 const addSubmit = document.getElementById('submitRecip');
 
-
 const trends = document.getElementById('trends');
 const title3 = document.getElementById('title3');
 const poster3 = document.getElementById('poster3');
@@ -27,6 +26,9 @@ const addedRecipes = document.getElementById('addedRecipes');
 // const showSummary = document.getElementById('showSummary');
 const p = document.getElementById('list');
 const ul = document.getElementById('ul');
+const h1 = document.createElement('h1');
+h1.textContent = '#KENYA No1 Trusted web By restaurant owners';
+
 
 title.style.marginTop = '15vh';
 //function to search a recipe
@@ -90,6 +92,7 @@ const foodCom = (query) => {
                 bysteps.forEach(byStep => {
                     if(byStep.trim() !== ''){
                     const direction = document.createElement('li');
+                    direction.textContent = '';
                     direction.textContent = byStep.trim();
                     directions.appendChild(direction);
                     }

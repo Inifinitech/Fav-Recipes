@@ -29,3 +29,7 @@ The author is open to any form of suggestion. Fork the repo and submit pull requ
 
 # LICENSE
 This project has no licenses for now. Licenses will be added in future.
+
+
+# AUTHORS
+. Infinitech
