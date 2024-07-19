@@ -18,6 +18,8 @@ This Recipe search and saving web allows users to search for recipes, view trend
 . View your Recipes: Click 'My Recipes' or browse through to see your saved recipes
 . Delete a saved recipe: Click the Delete Permanently button to clear a recipe from your collection of saved recipes
 # Link: 
+. Page link --  https://inifinitech.github.io/Fav-Recipes/  API(db.json) link --  https://inifinitech.github.io/Fav-Recipes/db.json
+
 
 # SCREENSHOT
 ![Screenshot 2024-07-19 125215](https://github.com/user-attachments/assets/79e6db8b-a91b-41d1-9ed4-c4702127751c)
