@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "id": "43ce",
+      "title": "Burger",
+      "image": "https://www.allrecipes.com/thmb/8fe_5pLNz2eHcpknNhL52fdq5hE=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/25473-the-perfect-basic-burger-DDMFS-4x3-56eaba3833fd4a26a82755bcd0be0c54.jpg",
+      "summary": "Preheat an outdoor grill for high heat and lightly oil grate.\n\nWhisk together egg, salt, and pepper in a medium bowl.\n\nOverhead shot of a mixing bowl with wet ingredients for a burger recipe\n\n\nAdd ground beef and bread crumbs and mix with your hands or a fork until well blended.\n\n\nOverhead shot of ground meat being mixed with ingredients for burgers\n\n\n\nForm into four 3/4-inch-thick patties.\n\nOverhead shot of formed beef patties for burgers on a baking sheet\n\n\nPlace patties on the preheated grill. Cover and cook 6 to 8 minutes per side, or to desired doneness. An instant-read thermometer inserted into the center should read at least 160 degrees F (70 degrees C).\n\nOverhead shot of grilled burgers resting on a baking sheet\n\n\nServe hot and enjoy!"
+    },
+    {
+      "id": "2633",
+      "title": "Crisp Crumbed Fish Fingers",
+      "image": "https://www.allrecipes.com/thmb/BUPrlBzmOV0IuYq8vryegy1KDiM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/9221334-59288d7f530f43b3a704931b901e8cb9.jpg",
+      "summary": "Cut fish fillets into long diagonal strips, each measuring about 3/4 inch wide.\n\n\nBreak eggs into a shallow dish and beat well with a fork. Place bread crumbs in another shallow dish. Put flour, salt, and pepper in a large zip-top bag.\n\n\nDip fish strips in egg, turning to coat well. Place on a plate and then shake a few at a time in the bag of seasoned flour. Dip in egg again and then in bread crumbs, turning to coat well. Place on a tray in a single layer, not touching, and let the coating set for at least 5 minutes.\n\n\nMeanwhile, heat 1/2 inch oil in a large frying pan over medium-high heat to 350 degrees F (175 degrees C). Fry fish strips in batches (taking care not to overcrowd the pan) in the hot oil for about 2 to 2 1/2 minutes, turning once. Drain on a paper towel-lined plate and repeat to fry remaining strips.\n\n\nServe with lemon wedges and tartar sauce.",
+      "ingredients": "10 ounces sole fillets\n\n2 large eggs\n\n2 cups fresh fine bread crumbs\n\n¾ cup all-purpose flour\n\nsalt and ground black pepper to taste\n\n1 cup oil for frying, or as needed\n\n1 medium lemon, cut into wedges\n\n2 tablespoons tartar sauce"
+    },
+    {
+      "id": "1513",
+      "title": "Chicken Noodle Salad",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F11%2F15%2F6777730-chicken-noodle-salad-Chef-John-1x1-1.jpg&q=60&c=sc&poi=auto&orient=true&h=512",
+      "summary": "Whisk garlic, rice vinegar, soy sauce, fish sauce, brown sugar, Sriracha, hoisin, and sesame oil together in a mixing bowl for the dressing.\n\nTear chicken apart into strands similar in width to the spaghetti. Refrigerate until ready to use.\n\nBring a large pot of lightly salted water to a boil. Cook spaghetti in the boiling water, stirring occasionally, until tender yet firm to the bite, about 12 minutes. Drain and rinse with cold water.\n\nTransfer spaghetti to a mixing bowl; add the chicken, carrots, bell pepper, and green onions. Pour in the dressing and toss by hand until well combined. Seal the surface of the salad with plastic wrap and refrigerate, tossing occasionally, for 2 to 12 hours, the longer the better.\n\nAdd peanuts, basil, mint, and cilantro to the salad. Toss well; taste and adjust for seasoning."
+    },
+    {
+      "id": "d3fb",
+      "title": "The Perfect Peanut Butter Milkshake",
+      "image": "https://www.allrecipes.com/thmb/e-JtbQFh5NBsJToTs5fBDmaaBQE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/The-Perfect-Peanut-Butter-Milkshake-by-Yoly-98596b0038134060b5941606d437fca4.png",
+      "summary": "Combine ice cream, milk, and peanut butter in a blender; blend until smooth, about 45 seconds."
+    }
+  ],
+  "offset": 0,
+  "number": 10,
+  "totalResults": 5158
+}
