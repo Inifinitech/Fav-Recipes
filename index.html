@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script defer src="./main.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <header>
+    <div id="header">
+      <div class="startPage" id="home">
+    <img src="images/logo.png" alt="logo" />
+    <h1>RECIPES</h1></br>
+    <p class="introText">for the love of recipes</p>
+    </div>
+    <nav><a href="#">Home</a>
+        <a href="#trends">What's Trending</a>
+        <a href="#addedRecipes">My Recipes</a>
+    </nav>
+    <div id="searchBar">
+      <input type="text" id="search" name="search" placeholder="What're you looking for!"><input type="button"  id="submit" name="submit" value="Search">
+    </div>
+    </div>
+  </header>
+  <body>
+    <div id="home" class="main">
+        <h2 id="title"></h2>
+        <div id="poster"></div>
+        <div id="items">
+          <p id="ingredientInfo"></p>
+          <ul id="ul"></ul>
+        </div>
+        <p id="recipeInfo"></p>
+        <p id="summary"></p>
+    </div>
+    <h2 id="recipeCollection">Add a recipe to your collection:</h2>
+    <div id="additionals">
+      <label for="title2">Meal: </label><input type="text" id="title2" placeholder="Meal Name here!">
+      <label for="poster2">Meal Image: </label><input type="text" id="poster2" placeholder="Meal Image here!">
+      <label for="summary2">Recipe: </label><textarea name="summary" id="summary2" placeholder="Add the recipe here"></textarea>
+      <button id="submitRecip">Add!</button>
+    </div>
+    <div id="trends">
+      <h1 id="h1">What's trending!</h1>
+      <h2 id="title3"></h2>
+      <div id="poster3"></div>
+      <div id="items3">
+      <p id="list3"></p>
+      <ul id="ul3"></ul>
+      </div>
+        <p id="recipeInfo2"></p>
+        <p id="summary3"></p>
+    </div>
+    <div id="addedRecipes">
+      <h2 id="favRecipes">My Recipes: </h2>
+    </div>
+  </body>
+</html>
