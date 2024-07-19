@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body {
+    font-family: 'Merriweather + Sans', sans-serif;
     background: white;
     margin: 0px;
     padding: 0px;
@@ -58,6 +61,7 @@ img[alt="addedImage"] {
 }
 nav > a {
     display: inline-flex;
+    font-size: 1.2rem;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -65,14 +69,25 @@ nav > a {
     color: black;
 }
 #searchBar {
-    padding-right: 150px;
+    padding-right: 70px;
     float: right;
 }
 input#search {
-   border: 1px transparent;
+   border: 1px whitesmoke;
    border-radius: 10px;
    height: 5vh;
    margin: 8px;
+   cursor: pointer;
+}
+input#submit {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+    width: 50%;
+}
+input#submit:hover {
+    background: #fA510F;
+    color: white;
 }
 #title {
     padding-left: 50vh;
@@ -85,6 +100,14 @@ input#search {
     border: 1px;
     justify-content: center;
     align-items: center;
+    color: white;
+}
+button#submitRecip {
+ cursor: pointer;
+ border-radius: 10px;
+}
+button#submitRecip:hover {
+    background: #007bff;
     color: white;
 }
 #ingredientInfo {
@@ -203,14 +226,17 @@ hr {
     border-top: 1px solid aliceblue;
     margin: 10px 0;
 }
-
-/* @media (min-width: 768px) {
-    #addedRecipes {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    }
+label {
+    display: flex;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(164, 10, 159);
 }
-@media (min-width: 1024px) {
-    #addedRecipes {
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    }
-} */
+a:hover {
+    color: #fA510F;
+}
+footer {
+    background: aqua;
+    padding: 20px 0;
+    text-align: center;
+}
